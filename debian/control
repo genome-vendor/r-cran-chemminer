@@ -1,14 +1,14 @@
-Source: r-cran-chemminer2.9.0
+Source: r-cran-chemminer
 Section: gnu-r
 Priority: optional
 Maintainer: ChemmineR Team <see@url>
-Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0)
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), cdbs, r-cran-rcurl
 Homepage: http://manuals.bioinformatics.ucr.edu/home/chemminer
 Standards-Version: 3.9.1
 
-Package: r-cran-chemminer2.9.0
+Package: r-cran-chemminer
 Architecture: all
 Maintainer: ChemmineR Team <see@url>
 Description: ChemmineR is an R package for analyzing small molecule and screening data. The new version of the package 'ChemmineR-V2' contains efficient functions and data containers for processing SDFs (structure data files), structural similarity searching, clustering/diversity analyses of compound libraries with a wide spectrum of algorithms. In addition, it offers utilities for managing complex data sets from high-throughput compound bio-assays, and visualization functions for clustering results and chemical structures.
 License: Artistic-2.0
-Depends: r-base-core
+Depends: r-base-core, r-cran-rcurl
